@@ -1,0 +1,38 @@
+<html xmlns:th="htts://thymleaf.org">
+
+<head>
+	<title>User Info</title>
+</head>
+
+<table>
+
+	<tr>
+		<td>
+			<h5>User Name: </h5>
+		</td>
+		<td>
+			<h5 th:text="${user.name}"></h5>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<h5>Email Id: </h5>
+		</td>
+		<td>
+			<h5 th:text="${user.email}"></h5>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<h5>Position: </h5>
+		</td>
+		<td>
+			<h5 th:text="${user.position}"></h5>
+		</td>
+	</tr>
+
+</table>
+
+</html>
